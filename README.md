@@ -1,2 +1,0 @@
-# elanzalite
-elanza free themes
