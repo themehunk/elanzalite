@@ -68,22 +68,83 @@ add_theme_support( 'custom-background', $args );
   add_theme_support( 'custom-header',$defaults );
 // Add custom-background
   add_theme_support( 'custom-background' );
-  // Recommend plugins
+
+ // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
+
+
             'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'elanzalite' ),
+                'name' => esc_html__( 'ThemeHunk Customizer (Highly Recommended)', 'elanzalite' ),
+                'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
+            ),
+
+            'th-advance-product-search' => array(
+            'name' => esc_html__( 'TH Advance Product Search', 'elanzalite' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'elanzalite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
             ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'elanzalite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
-            'business-popup' => array(
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'elanzalite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'elanzalite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),
+
+             'business-popup' => array(
                 'name' => esc_html__( 'Business Popup', 'elanzalite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'business-popup/business-popup.php',
             )
 
+            
+
         ) );
+
+        // Import Data Content plugins
+        add_theme_support( 'import-demo-content', array(
+
+             'themehunk-customizer' => array(
+                'name' => esc_html__( 'ThemeHunk Customizer (Highly Recommended)', 'elanzalite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
+            ),
+
+            'one-click-demo-import' => array(
+                'name' => esc_html__( 'One Click Demo Import', 'elanzalite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
+            ), 
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'elanzalite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),
+
+        ));
+
+        // Useful plugins
+        add_theme_support( 'useful-plugins', array(
+             'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'elanzalite' ),
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ),
+        ) );
+
 }
 endif;  
 add_action( 'after_setup_theme', 'elanzalite_setup' );

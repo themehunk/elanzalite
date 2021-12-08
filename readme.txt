@@ -1,17 +1,37 @@
+=== Theme: ElanzaLite ===
+Contributors: ThemeHunk
+Tags: two-columns, grid-layout, right-sidebar, custom-background, custom-colors, custom-menu, theme-options, sticky-post, translation-ready, footer-widgets, blog, news, custom-logo
+Requires at least: 4.5
+Tested up to: 5.8.2
+Requires PHP: 5.6
+Stable tag: 1.2.5
+License: GPLv3 or later
+License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
+
 "ElanzaLite Blogging WordPress Theme" By ThemeHunk.
 
-== Theme: ElanzaLite ==
-* By ThemeHunk, http://themehunk.com/
-
-Elanza Lite
 == Description ==
 Elanzalite theme is specially made for blog lovers. Theme comes with beautiful standard and magazine touch two grid post layout. It has fullwidth post slider and live customizer to check changes instantly. 
 
-== Theme License & Copyright ==
-ElanzaLite Theme is distributed under the terms of the GNU GPL V3
-ElanzaLite Theme - Copyright 2014 ElanzaLite Theme, themehunk.com
+
+== Frequently Asked Questions ==
+
+= Does your theme works with latest WordPress version. =
+Yes, our theme works with latest WordPress version.
+
+= Does your theme support third party plugin =
+Yes, we have created our theme in such a way that it can support almost all plugin available in a market. However, It is very difficult to test each and every plugin. So if you get any issues either you can contact to our support forum. They will help you in every possible manner to make plugin compatible with the theme. Or you can use any alternate plugin.
+
+= Does your theme works on multisite. =
+Yes, all our theme works on multisite.
+
 
 == ChangeLog ==
+
+Version 1.2.5
+* Th option panel updated.
+* Child theme notification added.
+
 Version 1.2.4
 * widgets-block-editor issue fixed
 
@@ -94,8 +114,10 @@ Version 1.0.0
 
 == Upgrade Notice ==
 
-Version 1.2.3
-* FontAwesome Updated
+Version 1.2.5
+* Th option panel updated.
+* Child theme notification added.
+
 
 == FontAwesome License ==
 License: SIL OFL 1.1

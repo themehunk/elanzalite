@@ -11,7 +11,8 @@
 	//sidebar and footer widget
 	require get_parent_theme_file_path('/inc/widget.php');
 	require get_parent_theme_file_path('/inc/customizer.php');
-	require trailingslashit( get_template_directory() ) . '/inc/elanzalite-theme.php';
 	require trailingslashit( get_template_directory() ) . '/inc/pro-button/class-customize.php';
+	require trailingslashit( get_template_directory() ) . '/inc/th-option/th-option.php';
+	require trailingslashit( get_template_directory() ) . '/inc/th-option/child-notify.php';
 
 
